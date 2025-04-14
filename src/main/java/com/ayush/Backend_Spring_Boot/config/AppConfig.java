@@ -47,6 +47,7 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                         "https://ayushnarware.github.io/OnlineFood/",
                         "http://localhost:4200",
+                    "http://localhost:3000",
                         "https://ayushnarware.github.io/OnlineFood/",
                     "*"
                 ));
