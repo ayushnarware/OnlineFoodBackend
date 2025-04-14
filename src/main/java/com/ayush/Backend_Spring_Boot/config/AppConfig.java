@@ -47,7 +47,8 @@ public class AppConfig {
                 cfg.setAllowedOrigins(Arrays.asList(
                         "https://ayushnarware.github.io/OnlineFood/",
                         "http://localhost:4200",
-                        "https://ayushnarware.github.io/OnlineFood/"
+                        "https://ayushnarware.github.io/OnlineFood/",
+                    "*"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
                 cfg.setAllowCredentials(true);
