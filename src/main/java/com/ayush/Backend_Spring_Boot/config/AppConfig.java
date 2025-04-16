@@ -47,9 +47,9 @@ public class AppConfig {
                 CorsConfiguration cfg = new CorsConfiguration();
                 cfg.setAllowedOrigins(Arrays.asList(
                         "https://ayushnarware.github.io/OnlineFood/",
-                        "http://localhost:4200",
-                    "http://localhost:3000",
-                        "https://ayushnarware.github.io",
+                        "http://localhost:3000/OnlineFood/",
+                    "http://localhost:3000/OnlineFood/",
+                    "https://ayushnarware.github.io",
                     "*"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
