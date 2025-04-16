@@ -12,11 +12,11 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.zosh</groupId>
-	<artifactId>zosh-food</artifactId>
+	<groupId>com.ayush</groupId>
+	<artifactId>Backend-Spring-Boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>zosh-food</name>
-	<description>Online Food Delivery System</description>
+	<name>Backend-Spring-Boot</name>
+	<description>Food Online Ordering Website Project By Ayush Backend Spring Boot </description>
 
 	<properties>
 		<java.version>17</java.version>
