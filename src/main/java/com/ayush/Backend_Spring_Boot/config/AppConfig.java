@@ -24,6 +24,7 @@ public class AppConfig {
 
         http.sessionManagement(management -> management.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(Authorize -> Authorize
+                        .requestMatchers("/auth/**").permitAll()
                         .requestMatchers("/api/admin/**").hasAnyRole("RESTAURANT_OWNER","ADMIN")
                         .requestMatchers("/api/**").authenticated()
 
@@ -48,7 +49,7 @@ public class AppConfig {
                         "https://ayushnarware.github.io/OnlineFood/",
                         "http://localhost:4200",
                     "http://localhost:3000",
-                        "https://ayushnarware.github.io/OnlineFood/",
+                        "https://ayushnarware.github.io",
                     "*"
                 ));
                 cfg.setAllowedMethods(Collections.singletonList("*"));
